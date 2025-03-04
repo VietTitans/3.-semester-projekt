@@ -1,0 +1,15 @@
+# Ignore everything
+*
+ 
+# Unignore directories so that .java files in subdirectories are also considered
+!*/
+ 
+# Allow only .cs files
+!*.cs
+!*.uxf
+!*.sql
+!*.js
+!*.cshtml
+!*.json
+!*.gitignore
+/bin/
